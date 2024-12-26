@@ -1,0 +1,25 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Remove the fixed max-width to allow components to control their own widths */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1536px; /* 2xl breakpoint */
+}
+
+/* Responsive padding adjustments */
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
